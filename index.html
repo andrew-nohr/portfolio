@@ -1,5 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css"> 
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8" />
+        <title>Andrew Nohr's Portfolio</title>
+        <link rel = "stylesheet" href = "assets/CSS/style.css">
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <h1>
+                <a>Andrew Nohr</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href = "#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href = "#my-work">Work</a>
+                    </li>
+                    <li>
+                        <a href = "#contact-info">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Hero-->
+        <section class = "hero">
+            <h2>
+                Software Engineer
+            </h2>
+        </section>
+
+        <div class = "me">
+            <!--About Me-->
+            <section id = "about-me" class = "my-info">
+                <h2>About Me</h2>
+                <div class = "word-about">
+                    <p>
+                        Hello! My name is Andrew and I am currently enrolled with the coding bootcamp at UC Davis. A few reasons that drove me to do software engineering is my visual impairment, love for tech, blockchain, and web3. 
+                        <br />
+                        <br />
+                        Some of my hobbies I have outside of this work space are family time with my wife and son, crypto, MMA, being a Celiac Disease Foundation Ambassador, selling Real Estate, and a few moments of relaxation. 
+                    </p>
+                </div>
+            </section>
+
+            <!--My Work-->
+            <section id = "my-work" class = "projects">
+                <h2>My Work</h2>
+                <div class = "images">
+                    <div class = "img1">
+                        <a href = "https://goingblindbro.github.io/workday-scheduler/"" target = "_blank">
+                            <img src = "images/schedule.jpeg" alt = "person typing code in a computer" class = "head-img" />
+                        </a>
+                        <p class = "label1">Work Day Scheduler</p>
+                        
+                    </div>
+                    <br />
+                    <div class = "same-line">
+                        <div class = "img1">
+                            <a href = "https://goingblindbro.github.io/passGen-an/" target = "_blank">
+                                <img src = "images/password.jpeg" alt = "a series of cartoon tasks and hands completing them" class = "left-img" />
+                            </a>
+                            <p class = "label2">Password Generator</p>
+                        </div>
+                        <div class = "img1">
+                            <a href = "https://goingblindbro.github.io/CryptoSource/" target = " _blank">
+                                <img src = "images/csp.png" class = "right-img" />
+                            </a>
+                            <p class = "label3">Crypto Source</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id = "contact-info" class = "contact">
+                <h2>Contact Me</h2>
+                <div class = "content">
+                    <a href = "mailto::nohrenterprise@gmail.com" class = "element" target = "_blank">nohrenterprise@gmail.com</a>
+                    <a href = "https://github.com/goingblindbro" class = "element" target = "_blank">GitHub</a>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
