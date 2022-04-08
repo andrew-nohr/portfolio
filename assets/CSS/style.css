@@ -200,9 +200,7 @@ header nav ul li a {
     .head-img {
         width: 400px;
     }
-    .left-img {
-        width: 195px;
-    }
+    .left-img,
     .right-img {
         width: 195px;
     }
@@ -226,14 +224,8 @@ header nav ul li a {
         width: 250px;
         font-size: 24px;
     }
-    .head-img {
-        width: 200px;
-        height: 200px;
-    }
-    .left-img {
-        width: 200px;
-        height: 200px;
-    }
+    .head-img,
+    .left-img,
     .right-img {
         width: 200px;
         height: 200px;
@@ -318,16 +310,8 @@ header nav ul li a {
         display:none;
     }
 
-    .head-img {
-        width: 400px;
-        height: 400px;
-    }
-
-    .left-img {
-        width: 400px;
-        height: 400px;
-    }
-
+    .head-img,
+    .left-img,
     .right-img {
         width: 400px;
         height: 400px;
