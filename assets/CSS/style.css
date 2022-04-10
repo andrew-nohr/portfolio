@@ -62,6 +62,12 @@ header nav ul li a {
     
 }
 
+.portrait {
+    margin-left: 275px;
+    height: 200px;
+    width: 200px;
+}
+
 .me {
     margin-top: 8px;
     margin-left: 40px;
