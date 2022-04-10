@@ -11,7 +11,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: rgba(0, 0, 0);
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -47,9 +47,8 @@ header nav ul li a {
 }
 
 .hero {
-    height: 400px;
+    height: 300px;
     width: 100%;
-    
     background-size: cover;
     background-position: right;
     display: flex;
@@ -119,6 +118,7 @@ header nav ul li a {
 
 .img1 {
     position: relative;
+    width: 300px;
     
 }
 
@@ -134,8 +134,8 @@ header nav ul li a {
 }
 
 .head-img {
-    width: 610px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin-bottom: 10px;
 }
 
