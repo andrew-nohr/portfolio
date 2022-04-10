@@ -6,7 +6,7 @@
 body {
     background-color: lightseagreen;
     font-family: Arial, Helvetica, sans-serif;
-    color: white
+    color: whitesmoke
 }
 
 header {
@@ -20,7 +20,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: lightseagreen;
 }
 
 header h1 {
@@ -63,9 +63,13 @@ header nav ul li a {
 }
 
 .portrait {
-    margin-left: 275px;
-    height: 200px;
-    width: 200px;
+    display: flex;
+    position: relative;
+    margin-left: 340px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
 }
 
 .me {
@@ -86,11 +90,11 @@ header nav ul li a {
     align-items: center;
     margin-bottom: 30px;
     flex-wrap: wrap;
-    border-left: gray 2px;
 }
 
 .my-info p {
     border-left: white 2px solid;
+    margin-left: 27px;
     padding-left: 20px;
     width: 1000px;
     flex-wrap: wrap;
@@ -139,14 +143,13 @@ header nav ul li a {
     background-color: white
 }
 
-.head-img {
+.head-img,
+.left-img,
+.right-img {
+    position: relative;
     width: 300px;
     height: 300px;
-    margin-bottom: 10px;
-}
-
-.right-img {
-    width: 300px;
+    margin-bottom: 5px;
 }
 
 .contact {
@@ -160,9 +163,8 @@ header nav ul li a {
 .content {
     font-size: 24px;
     gap: 115px;
-    border-left: black 2px solid;
+    margin-left: 1px;
     width: 1000px;
-    padding-left: 250px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -203,12 +205,11 @@ header nav ul li a {
         padding: 0 100px;
     }
 
-    .head-img {
-        width: 400px;
-    }
+    .head-img,
     .left-img,
     .right-img {
-        width: 195px;
+        height: 300px;
+        width: 300px;
     }
 
     .content {
